@@ -1,0 +1,27 @@
+﻿<Window
+    x:Class="ControlToImage.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:ControlToImage"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="MainWindow"
+    Width="800"
+    Height="450"
+    mc:Ignorable="d">
+    <UniformGrid Name="Host" Columns="2">
+        <Grid>
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center">Hello</TextBlock>
+        </Grid>
+        <Grid>
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center">World</TextBlock>
+        </Grid>
+        <Button
+            Name="Save"
+            Width="200"
+            Height="40"
+            Click="Save_Click">
+            Save
+        </Button>
+    </UniformGrid>
+</Window>
